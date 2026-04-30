@@ -63,8 +63,8 @@ export default function ContactForm({ preselect = "", onNavigate }) {
 
     try {
       await emailjs.send(
-        "service_cyvsrrs",
-        "template_k4dk9vl",
+        "service_iz957mi",
+        "template_tsxwlxj",
         {
           name: form.name,
           company: form.company,
@@ -73,7 +73,7 @@ export default function ContactForm({ preselect = "", onNavigate }) {
           service: form.service,
           message: form.message,
         },
-        "XSmD3ufLyRYoXOmI2",
+        "QAHHLu7yNLM_GXptR",
       );
 
       setSent(true);
