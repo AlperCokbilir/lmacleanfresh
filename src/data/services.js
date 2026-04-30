@@ -1,0 +1,95 @@
+const SERVICES = [
+  {
+    id: "reinigung",
+    title: "Professionelle Reinigung",
+    sub: "Privat & Gewerbe",
+    img: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900&q=80",
+    text: "Ob Privathaushalt oder Gewerbeobjekt – unsere geschulten Reinigungsteams sorgen mit professionellen Mitteln und einer systematischen Arbeitsweise für dauerhaft makellose Sauberkeit. Wir entwickeln individuelle Reinigungskonzepte, die exakt auf Ihre Räumlichkeiten und Anforderungen zugeschnitten sind. Unsere Mitarbeiter werden regelmäßig geschult und eingesetzt mit geprüften, umweltschonenden Reinigungsmitteln.",
+    bullets: [
+      "Büro- & Gewerbereinigung",
+      "Wohnungsreinigung",
+      "Gemeinschaftsflächen & Treppenhäuser",
+      "Sanitäranlagen & Küchenbereiche",
+    ],
+  },
+  {
+    id: "hausmeister",
+    title: "Hausmeisterservice",
+    sub: "Rundum-Betreuung für Ihre Immobilie",
+    img: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?w=900&q=80",
+    text: "Mit unserem umfassenden Hausmeisterservice übernehmen wir die vollständige Betreuung Ihrer Liegenschaft. Von Kleinreparaturen über die Überwachung technischer Anlagen bis hin zur Koordination von Handwerkern – wir sind Ihr verlässlicher Ansprechpartner vor Ort und reagieren schnell auf alle Anforderungen.",
+    bullets: [
+      "Kleinreparaturen & Instandhaltung",
+      "Technische Anlagenwartung",
+      "Objektbegehungen & Protokollierung",
+      "Koordination von Handwerkern",
+    ],
+  },
+  {
+    id: "entruempelung",
+    title: "Entrümpelungen",
+    sub: "Professionell & diskret",
+    img: "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=900&q=80",
+    text: "Wohnungsauflösungen, Kellerentrümpelungen oder gewerbliche Räumungen – wir führen jeden Auftrag strukturiert, termingerecht und mit größter Sorgfalt durch. Wertgegenstände werden fachgerecht aussortiert, Abfälle umweltgerecht entsorgt. Sie erhalten besenreine Räume ohne eigenen Aufwand.",
+    bullets: [
+      "Wohnungs- & Haushaltsauflösungen",
+      "Keller- & Dachbodenentrümpelungen",
+      "Gewerberäumungen",
+      "Fachgerechte Entsorgung & Recycling",
+    ],
+  },
+  {
+    id: "umzug",
+    title: "Umzugs- & Transporthilfe",
+    sub: "Sicher, pünktlich, zuverlässig",
+    img: "https://images.unsplash.com/photo-1600518464441-9154a4dea21b?w=900&q=80",
+    text: "Unser erfahrenes Umzugsteam begleitet Sie von der sorgfältigen Verpackung bis zur vollständigen Einrichtung am neuen Standort. Mit eigenem Fuhrpark und modernem Equipment gewährleisten wir einen reibungslosen Ablauf – für private Umzüge ebenso wie für anspruchsvolle Firmenumzüge.",
+    bullets: [
+      "Privatumzüge & Firmenumzüge",
+      "Verpackung & Möbelmontage",
+      "Sperrgut- & Spezialtransporte",
+      "Kurz- & Langstrecken deutschlandweit",
+    ],
+  },
+  {
+    id: "grundreinigung",
+    title: "Grund- & Fensterreinigung",
+    sub: "Tiefenreinigung & Bauendreinigung",
+    img: "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=900&q=80",
+    text: "Nach Renovierungen, Umbaumaßnahmen oder als intensive Saisorreinigung: Unsere Grundreinigung erfasst jeden Winkel. Staub, Bauschutzrückstände und hartnäckige Verschmutzungen werden fachgerecht beseitigt. Streifenfreie Fenster und glänzende Flächen sind das sichtbare Ergebnis unserer Arbeit.",
+    bullets: [
+      "Bauendreinigung nach Renovierung",
+      "Fensterreinigung innen & außen",
+      "Teppich- & Polsterreinigung",
+      "Fliesen- & Fugenreinigung",
+    ],
+  },
+  {
+    id: "unterhaltsreinigung",
+    title: "Unterhaltsreinigung",
+    sub: "Regelmäßig & verlässlich",
+    img: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=900&q=80",
+    text: "Dauerhaft gepflegte Räumlichkeiten schaffen ein professionelles Umfeld und steigern das Wohlbefinden. Wir erstellen für Sie einen maßgeschneiderten Reinigungsplan mit festen Intervallen, konstantem Personal und dokumentierter Qualitätskontrolle – damit Sie sich auf Ihr Kerngeschäft konzentrieren können.",
+    bullets: [
+      "Tägliche, wöchentliche oder monatliche Intervalle",
+      "Feste Ansprechpartner & konstantes Team",
+      "Qualitätskontrolle & Reinigungsprotokoll",
+      "Flexible Zusatztermine auf Abruf",
+    ],
+  },
+  {
+    id: "garten",
+    title: "Garten- & Außenanlagenpflege",
+    sub: "Gepflegte Außenbereiche das ganze Jahr",
+    img: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=900&q=80",
+    text: "Ein gepflegter Außenbereich hinterlässt einen bleibenden ersten Eindruck. Unser Garten- und Pflegeteam betreut Ihre Grünanlagen, Wege und Außenanlagen ganzjährig mit fachlichem Know-how. Von der Frühjahrspflege bis zum professionellen Winterdienst – wir sorgen für Ordnung und Sicherheit.",
+    bullets: [
+      "Rasenpflege & Heckenrückschnitt",
+      "Laub- & Grünschnittentsorgung",
+      "Winterdienst & Streudienst",
+      "Wege- & Außenflächenpflege",
+    ],
+  },
+];
+
+export default SERVICES;
