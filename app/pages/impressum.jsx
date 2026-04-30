@@ -163,9 +163,9 @@ export default function Impressum({ onBack }) {
 
           <Section title="Kontakt">
             <P>
-              Telefon: +49 151 75099875
+              Telefon: +49 160 7723033
               <br />
-              E-Mail: aniligret@icloud.com
+              E-Mail: info@lmafreshclean.de
             </P>
           </Section>
 
@@ -206,7 +206,7 @@ export default function Impressum({ onBack }) {
               <br />
               Anil Igret · Wallensteinstraße 15, 80807 München
               <br />
-              +49 151 75099875 · aniligret@icloud.com
+              +49 160 7723033 · info@lmafreshclean.de
             </p>
           </div>
         </div>

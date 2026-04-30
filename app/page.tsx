@@ -22,18 +22,18 @@ export default function App() {
   const [contactPreselect, setContactPreselect] = useState("");
  
   // Seite wechseln + nach oben scrollen
-  const navigate = (target) => {
-    setPage(target);
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
+  const navigate = (target: string) => {
+  setPage(target);
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
  
   // "Jetzt anfragen"-Button in Leistungsabschnitten
-  const handleContact = (serviceTitle) => {
-    setContactPreselect(serviceTitle);
-    setTimeout(() => {
-      document.getElementById("kontakt")?.scrollIntoView({ behavior: "smooth" });
-    }, 50);
-  };
+  const handleContact = (serviceTitle: string) => {
+  setContactPreselect(serviceTitle);
+  setTimeout(() => {
+    document.getElementById("kontakt")?.scrollIntoView({ behavior: "smooth" });
+  }, 50);
+};
  
   // ── Rechtliche Unterseiten ─────────────────────────────────────────────────
 
