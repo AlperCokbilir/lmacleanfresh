@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "LMA Fresh&Clean",
-  description: "LMA Fresh&Clean",
+  title: "Gebäudereinigung München | LMA Fresh & Clean",
+description: "Professionelle Gebäudereinigung in München. Büroreinigung, Fensterreinigung und mehr.",
   verification: {
     google: "3o6vBXDPy4drK1x6OCPzOeY0BljlI1fn5UU95Usgb3A",
   },
